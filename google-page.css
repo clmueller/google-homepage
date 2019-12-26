@@ -52,74 +52,18 @@ a.images:hover {
 	cursor: pointer;
 	}
 
-#dd {  
-	background: #727272;
-	position: absolute;
-	right: 80px;
-	top: 25px;
-}
-
-#two {  
-	background: #727272;
-	position: absolute;
-	right: 80px;
-	top: 20px;
-}
-
-#three {  
-	background: #727272;
-	position: absolute;
-	right: 80px;
-	top: 15px;
-}
-
-#four {  
-	background: #727272;
-	position: absolute;
-	right: 75px;
-	top: 25px;
-}
-
-#five {  
-	background: #727272;
-	position: absolute;
-	right: 75px;
-	top: 20px;
-}
-
-#six {  
-	background: #727272;
-	position: absolute;
-	right: 75px;
-	top: 15px;
-}
-
-#seven {  
-	background: #727272;
-	position: absolute;
-	right: 70px;
-	top: 25px;
-}
-
-#eight {  
-	background: #727272;
-	position: absolute;
-	right: 70px;
-	top: 20px;
-}
-
-#nine {  
-	background: #727272;
-	position: absolute;
-	right: 70px;
-	top: 15px;
-}
 
 #pic { position: absolute;
        right: 25px;
        top: 8px;
 }
 	
+#cubes {
+       position: absolute;
+       right: 70px;
+       top: 13px;
+}
+
 .cube:hover {
 	cursor: pointer;
 	background: #303030;
