@@ -1,4 +1,132 @@
 
+a.about:link {    font-size:10px;
+	font-family: arial;
+	color: #5C5C5C;
+	text-decoration: none;
+	}
+
+a.about:hover { 
+	text-decoration: underline;
+	cursor: pointer;
+	}
+
+
+a.google_store:link {    font-size:10px;
+	font-family: arial;
+	color: #5C5C5C;
+	text-decoration: none;
+	position: relative;
+	left: 10px;
+	}
+
+a.google_store:hover { 
+	text-decoration: underline;
+	cursor: pointer;
+	}
+
+a.gmail:link {    font-size:10px;
+	font-family: arial;
+	color: #5C5C5C;
+	text-decoration: none;
+	position: absolute;
+	right: 150px;
+	top: 15px;
+	}
+
+a.gmail:hover { 
+	text-decoration: underline;
+	cursor: pointer;
+	}
+
+a.images:link {    font-size:10px;
+	font-family: arial;
+	color: #5C5C5C;
+	text-decoration: none;
+	position: absolute;
+	right: 100px;
+	top: 15px;
+	}
+
+a.images:hover { 
+	text-decoration: underline;
+	cursor: pointer;
+	}
+
+#dd {  
+	background: #727272;
+	position: absolute;
+	right: 80px;
+	top: 25px;
+}
+
+#two {  
+	background: #727272;
+	position: absolute;
+	right: 80px;
+	top: 20px;
+}
+
+#three {  
+	background: #727272;
+	position: absolute;
+	right: 80px;
+	top: 15px;
+}
+
+#four {  
+	background: #727272;
+	position: absolute;
+	right: 75px;
+	top: 25px;
+}
+
+#five {  
+	background: #727272;
+	position: absolute;
+	right: 75px;
+	top: 20px;
+}
+
+#six {  
+	background: #727272;
+	position: absolute;
+	right: 75px;
+	top: 15px;
+}
+
+#seven {  
+	background: #727272;
+	position: absolute;
+	right: 70px;
+	top: 25px;
+}
+
+#eight {  
+	background: #727272;
+	position: absolute;
+	right: 70px;
+	top: 20px;
+}
+
+#nine {  
+	background: #727272;
+	position: absolute;
+	right: 70px;
+	top: 15px;
+}
+
+#pic { position: absolute;
+       right: 25px;
+       top: 8px;
+}
+	
+.cube:hover {
+	cursor: pointer;
+	background: #303030;
+	}
+
+
+
 #google_logo {position: absolute;
              top: 20%;
              left: 50%;
@@ -6,25 +134,58 @@
 	     }
 
 .search_bar {position: absolute;
+	     font-family: arial;
              top: 150%;
              left: 50%;
              transform: translate(-50%, -50%);
              width: 475px;
-	     height: 30px;          
+	     height: 30px;  
+	     background: white;
+	     border:.75px solid #D7D6D6;
+  	     border-radius: 20px;
+	              
 	     }
 
-.search      {color:gray;
+.search      {background:#EFEFEF;
+	     color: #5C5C5C;
+	     font-family: arial;
+	     font-size: 12px;
+		padding: 5px;
+		border-radius: 5px;
+		display: inline-block;
+		border: none;
 	     position: absolute;
-	     width: 125px;
+	     width: 118px;
 	     height: 30px;
-             left: -15%;
+             left: -12%;
 	     top: 200%;
 	     }
 
-.lucky       {color:gray;
+.search:hover { color: #313131 !important;
+background: #F4F4F4;
+border: .75px solid #B7B7B7 !important;
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+cursor: pointer;
+}
+
+.lucky       {background:#EFEFEF;
+	     color: #5C5C5C;
+	     font-family: arial;
+	     font-size: 12px;
+		padding: 5px;
+		border-radius: 5px;
+		display: inline-block;
+		border: none;
 	     position: absolute;
-	     width:125px;
+	     width:118px;
 	     height:30px;
-             right: -15%;
+             right: -12%;
 	     top: 200%;
 	     }
+
+.lucky:hover { color: #313131 !important;
+background: #F4F4F4;
+border: .75px solid #B7B7B7 !important;
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+cursor: pointer;
+}
