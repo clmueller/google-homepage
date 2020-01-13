@@ -1,3 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 180px;
+  /* must be same height as the footer */
+}
+
 
 a.about:link {    font-size:10px;
 	font-family: arial;
@@ -15,8 +35,6 @@ a.google_store:link {    font-size:10px;
 	font-family: arial;
 	color: #5C5C5C;
 	text-decoration: none;
-	position: relative;
-	left: 10px;
 	}
 
 a.google_store:hover { 
@@ -133,3 +151,46 @@ border: .75px solid #B7B7B7 !important;
 box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
 cursor: pointer;
 }
+
+.footer {
+  position: relative;
+  margin-top: -180px;
+  /* negative value of footer height */
+  height: 180px;
+  
+}
+
+#myExcelSheet {position: absolute;
+             top: 80%;
+             left: 50%;
+	     }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #blue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  text-decoration: underline;
+	cursor: pointer;
+	}
+
+
+
