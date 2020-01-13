@@ -1,196 +1,35 @@
-* {
-  margin: 0;
-  padding: 0;
+h1 {
+    color: #ffc;
+    background-color: #009;
+    font-style: italic;
+    text-decoration: none;
 }
 
-html,
-body {
-  height: 100%;
+p:first-child {
+    font-weight: bold;
+    font-size: 40px;
+}
+{    color: red;
+    text-transform: uppercase;
+    line-height: 2;
+    text-align: center;
 }
 
-#wrap {
-  min-height: 100%;
+p {
+    font: 14px/1.5 "Times New Roman", times, serif;
+    padding: 30px 10px;
+    border: 1px black solid;
+    border-width: 1px 5px 5px 1px;
+    border-color: red green blue yellow;
+    margin: 10px 50px;
 }
 
-#main {
-  overflow: auto;
-  padding-bottom: 180px;
-  /* must be same height as the footer */
-}
-
-
-a.about:link {    font-size:10px;
-	font-family: arial;
-	color: #5C5C5C;
-	text-decoration: none;
-	}
-
-a.about:hover { 
-	text-decoration: underline;
-	cursor: pointer;
-	}
-
-
-a.google_store:link {    font-size:10px;
-	font-family: arial;
-	color: #5C5C5C;
-	text-decoration: none;
-	}
-
-a.google_store:hover { 
-	text-decoration: underline;
-	cursor: pointer;
-	}
-
-a.gmail:link {    font-size:10px;
-	font-family: arial;
-	color: #5C5C5C;
-	text-decoration: none;
-	position: absolute;
-	right: 150px;
-	top: 15px;
-	}
-
-a.gmail:hover { 
-	text-decoration: underline;
-	cursor: pointer;
-	}
-
-a.images:link {    font-size:10px;
-	font-family: arial;
-	color: #5C5C5C;
-	text-decoration: none;
-	position: absolute;
-	right: 100px;
-	top: 15px;
-	}
-
-a.images:hover { 
-	text-decoration: underline;
-	cursor: pointer;
-	}
-
-
-#pic { position: absolute;
-       right: 25px;
-       top: 8px;
-}
-	
-#cubes {
-       position: absolute;
-       right: 70px;
-       top: 13px;
-}
-
-.cube:hover {
-	cursor: pointer;
-	background: #303030;
-	}
-
-
-
-#google_logo {position: absolute;
-             top: 20%;
-             left: 50%;
-             transform: translate(-50%, -50%);
-	     }
-
-.search_bar {position: absolute;
-	     font-family: arial;
-             top: 150%;
-             left: 50%;
-             transform: translate(-50%, -50%);
-             width: 475px;
-	     height: 30px;  
-	     background: white;
-	     border:.75px solid #D7D6D6;
-  	     border-radius: 20px;
-	              
-	     }
-
-.search      {background:#EFEFEF;
-	     color: #5C5C5C;
-	     font-family: arial;
-	     font-size: 12px;
-		padding: 5px;
-		border-radius: 5px;
-		display: inline-block;
-		border: none;
-	     position: absolute;
-	     width: 118px;
-	     height: 30px;
-             left: -12%;
-	     top: 200%;
-	     }
-
-.search:hover { color: #313131 !important;
-background: #F4F4F4;
-border: .75px solid #B7B7B7 !important;
-box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-cursor: pointer;
-}
-
-.lucky       {background:#EFEFEF;
-	     color: #5C5C5C;
-	     font-family: arial;
-	     font-size: 12px;
-		padding: 5px;
-		border-radius: 5px;
-		display: inline-block;
-		border: none;
-	     position: absolute;
-	     width:118px;
-	     height:30px;
-             right: -12%;
-	     top: 200%;
-	     }
-
-.lucky:hover { color: #313131 !important;
-background: #F4F4F4;
-border: .75px solid #B7B7B7 !important;
-box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-cursor: pointer;
-}
-
-.footer {
-  position: relative;
-  margin-top: -180px;
-  /* negative value of footer height */
-  height: 180px;
-  
-}
-
-#myExcelSheet {position: absolute;
-             top: 80%;
-             left: 50%;
+#myExcelSheet {position: relative;
+             top: 50%;
+             left: 10px;
 	     }
 
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #blue;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  text-decoration: underline;
-	cursor: pointer;
-	}
 
 
 
